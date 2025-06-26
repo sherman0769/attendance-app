@@ -1,0 +1,6 @@
+
+{
+  "name": "IMC盈科AI學習簽到系統",
+  "description": "一個用於追蹤最多100人、共6個場次簽到活動的系統，並識別全勤人員。",
+  "requestFramePermissions": []
+}
