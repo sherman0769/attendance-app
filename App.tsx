@@ -256,14 +256,6 @@ const App: React.FC = () => {
           <TabButton tabName="report" currentTab={activeTab} onClick={() => setActiveTab('report')}>
             <span role="img" aria-label="報告" className="mr-2">🏆</span> 全勤報告
           </TabButton>
-          <button
-            onClick={toggleReadme}
-            className="px-6 py-3 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-600 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75"
-            aria-expanded={showReadme}
-            aria-controls="readme-modal"
-          >
-            <span role="img" aria-label="書籍" className="mr-2">📖</span> 使用說明
-          </button>
         </nav>
 
         {firebaseError && (
